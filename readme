@@ -1,0 +1,14 @@
+programming language: python
+packages to run the code:
+(environment)
+import pandas as pd
+import numpy as np
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+import seaborn as sns
+color=sns.color_palette()
+sns.set_style('darkgrid')
+
+from scipy.stats import norm, skew
+from scipy import stats
